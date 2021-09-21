@@ -1,0 +1,5 @@
+if [ $1 ] ; then
+    case $1 in
+        zip) for i in *.zip; do unzip "$i" -d "${i%%.zip}"; done ;;
+    esac
+fi
