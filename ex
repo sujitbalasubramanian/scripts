@@ -1,3 +1,5 @@
+#!/bin/bash
+
 if [ -f $1 ] ; then
     case $1 in
         *.zip)      unzip $1      ;;

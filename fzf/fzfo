@@ -1,0 +1,3 @@
+#!/bin/bash
+
+xdg-open $(find -print | fzf --preview "highlight --out-format=ansi --force {}"

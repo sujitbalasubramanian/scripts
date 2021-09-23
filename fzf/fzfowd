@@ -1,0 +1,3 @@
+#!/bin/bash
+
+xdg-open $(find -printf "%p %TY-%Tm-%Td %TH:%TM \n" | fzf --preview "highlight --out-format=ansi --force {1}" | awk "{print $1}")
