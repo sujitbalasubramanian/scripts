@@ -1,0 +1,3 @@
+#!/bin/bash
+
+$(rofi -width 60 -lines 0 -dmenu -p "Run")
